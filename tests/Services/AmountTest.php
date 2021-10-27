@@ -14,7 +14,13 @@ class CountryTest extends UnitTestCase
         $this->amount = new Amount();
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     * 
+     * @test
+     */
     public function check_correct_normalize_amount()
     {
         $amount = 123;
