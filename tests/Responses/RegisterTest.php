@@ -54,7 +54,13 @@ class RegisterTest extends UnitTestCase
         $this->assertTrue($success);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     *
+     * @test
+     */
     public function check_correct_error_code_passing()
     {
         $code = 4;
@@ -64,7 +70,13 @@ class RegisterTest extends UnitTestCase
         $this->assertEquals($error_code, $code);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     *
+     * @test
+     */
     public function check_correct_error_description_passing()
     {
         $error_description = 'error 1 desc';
@@ -75,7 +87,13 @@ class RegisterTest extends UnitTestCase
         $this->assertEquals($error_description_passing, $error_description);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     * 
+     * @test
+     */
     public function check_correct_request_paramters_passing()
     {
         $parameters_request = [
