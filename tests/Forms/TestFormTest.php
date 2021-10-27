@@ -35,21 +35,12 @@ class TestFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Test Form
-     * @Case get uri
+     * @feature Payments
+     * @scenario Register Payment
+     * @case test
+     *
      * @test
      */
-    public function get_uri()
-    {
-        //When
-        $method = $this->form->getUri();
-
-        //Then
-        $this->assertSame('testAccess', $method);
-    }
-
-
     public function testGetUrk()
     {
         //When
