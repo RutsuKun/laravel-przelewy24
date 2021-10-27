@@ -54,7 +54,13 @@ class RegisterTest extends UnitTestCase
         $this->assertTrue($success);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     *
+     * @test
+     */
     public function check_correct_error_code_passing()
     {
         $code = 4;
