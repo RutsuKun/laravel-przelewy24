@@ -33,20 +33,4 @@ class TestFormTest extends UnitTestCase
         //Then
         $this->assertSame('GET', $method);
     }
-
-    /**
-     * @feature Payments
-     * @scenario Register Payment
-     * @case test
-     *
-     * @test
-     */
-    public function testGetUrk()
-    {
-        //When
-        $method = $this->form->getUri();
-
-        //Then
-        $this->assertSame('testAccess', $method);
-    }
 }
