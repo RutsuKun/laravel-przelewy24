@@ -70,7 +70,13 @@ class RegisterTest extends UnitTestCase
         $this->assertEquals($error_code, $code);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return error massage
+     *
+     * @test
+     */
     public function check_correct_error_description_passing()
     {
         $error_description = 'error 1 desc';
