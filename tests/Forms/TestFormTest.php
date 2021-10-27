@@ -48,4 +48,14 @@ class TestFormTest extends UnitTestCase
         //Then
         $this->assertSame('testAccess', $method);
     }
+
+
+    public function testGetUrk()
+    {
+        //When
+        $method = $this->form->getUri();
+
+        //Then
+        $this->assertSame('testAccess', $method);
+    }
 }
