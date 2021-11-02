@@ -12,35 +12,35 @@ class CountryTest extends UnitTestCase
         return [
             [
                 'amount' => 123,
-                'pass_amount' => 12300,
+                'expected' => 12300,
             ],
             [
                 'amount' => 123.45,
-                'pass_amount' => 12345,
+                'expected' => 12345,
             ],
             [
                 'amount' => '123.45',
-                'pass_amount' =>  12345,
+                'expected' =>  12345,
             ],
             [
                 'amount' => '123,45',
-                'pass_amount' => 12345,
+                'expected' => 12345,
             ],
             [
                 'amount' => 'asdf',
-                'pass_amount' => 0,
+                'expected' => 0,
             ],
             [
                 'amount' => '0,01',
-                'pass_amount' => 1,
+                'expected' => 1,
             ],
             [
                 'amount' => 001,
-                'pass_amount' => 100,
+                'expected' => 100,
             ],
             [
                 'amount' => 001.11,
-                'pass_amount' => 111,
+                'expected' => 111,
             ],
         ];
     }
@@ -60,9 +60,9 @@ class CountryTest extends UnitTestCase
      * @dataProvider provideAmount
      *
      */
-    public function check_correct_normalize_amount($amount, $expected)
+    public function check_correct_normalize_amount($amount, $expected_amount)
     {
         $pass_amount = Amount::get($amount);
-        $this->assertEquals($pass_amount, $expected);
+        $this->assertEquals($pass_amount, $expected_amount);
     }
 }
