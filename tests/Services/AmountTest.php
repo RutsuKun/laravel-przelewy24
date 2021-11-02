@@ -7,6 +7,44 @@ use Tests\UnitTestCase;
 
 class CountryTest extends UnitTestCase
 {
+    public function provideAmount()
+    {
+        return [
+            [
+                'amount' => 123,
+                'pass_amount' => 12300,
+            ],
+            [
+                'amount' => 123.45,
+                'pass_amount' => 12345,
+            ],
+            [
+                'amount' => '123.45',
+                'pass_amount' =>  12345,
+            ],
+            [
+                'amount' => '123,45',
+                'pass_amount' => 12345,
+            ],
+            [
+                'amount' => 'asdf',
+                'pass_amount' => 0,
+            ],
+            [
+                'amount' => '0,01',
+                'pass_amount' => 1,
+            ],
+            [
+                'amount' => 001,
+                'pass_amount' => 100,
+            ],
+            [
+                'amount' => 001.11,
+                'pass_amount' => 111,
+            ],
+        ];
+    }
+
     protected function setUp()
     {
         parent::setUp();
@@ -14,35 +52,17 @@ class CountryTest extends UnitTestCase
         $this->amount = new Amount();
     }
 
-    /** @test */
-    public function check_correct_normalize_amount()
+    /**
+     * @feature Payments
+     * @Scenario Register Payment
+     * @case Set Payment Amount
+     * @test
+     * @dataProvider provideAmount
+     *
+     */
+    public function check_correct_normalize_amount($amount, $expected)
     {
-        $amount = 123;
         $pass_amount = Amount::get($amount);
-        $this->assertEquals($pass_amount, 12300);
-
-        $amount = '123.45';
-        $pass_amount = Amount::get($amount);
-        $this->assertEquals($pass_amount, 12345);
-
-        $amount = '123,45';
-        $pass_amount = Amount::get($amount);
-        $this->assertEquals($pass_amount, 12345);
-
-        $amount = 'asdf';
-        $pass_amount = Amount::get($amount);
-        $this->assertEquals($pass_amount, 0);
-
-        $amount = '0,01';
-        $pass_amount = Amount::get($amount);
-        $this->assertSame($pass_amount, 1);
-
-        $amount = 001;
-        $pass_amount = Amount::get($amount);
-        $this->assertSame($pass_amount, 100);
-
-        $amount = 001.11;
-        $pass_amount = Amount::get($amount);
-        $this->assertSame($pass_amount, 111);
+        $this->assertEquals($pass_amount, $expected);
     }
 }
