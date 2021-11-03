@@ -11,7 +11,6 @@ class CountryTest extends UnitTestCase
     {
         return [
             '7' => ['amount' => 1.11, 'expected' => 111],
-            '0' => ['amount' => 123, 'expected' => 12300],
             '1' => ['amount' => 123.45, 'expected' => 12345],
             '2' => ['amount' => '123.45', 'expected' => 12345],
             '3' => ['amount' => '123,45', 'expected' => 12345],
