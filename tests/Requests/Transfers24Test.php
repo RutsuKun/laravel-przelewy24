@@ -131,8 +131,12 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($expected, $set_email);
     }
 
-    /** @test
-     *
+    /**
+     * @test
+     * 
+     * @Feature Payments
+     * @Scenario Register Payment
+     * @case Set Amount
      * @dataProvider amountSamples
      */
     public function validate_setAmount($amount, $currency, $expected_currency, $expected_amount)
