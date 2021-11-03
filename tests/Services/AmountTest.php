@@ -17,8 +17,6 @@ class CountryTest extends UnitTestCase
             '4' => ['amount' => 'asdf', 'expected' => 0],
             '5' => ['amount' => '0,01', 'expected' => 1],
             '6' => ['amount' => 1, 'expected' => 100],
-            '7' => ['amount' => 1.11, 'expected' => 111],
-            '8' => ['amount' => -100, 'expected' => 0],
         ];
     }
 
