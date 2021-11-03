@@ -43,7 +43,7 @@ class RefundNotificationRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario notify Refund
+     * @scenario Notify Refund
      * @case Refund was started
      *
      * @test

@@ -38,7 +38,7 @@ class RefundRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario init Refund
+     * @scenario Init Refund
      * @case Refund was started
      *
      * @test
@@ -64,7 +64,7 @@ class RefundRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario init Refund
+     * @scenario Init Refund
      * @case It gets Refunds Collection
      *
      * @test
@@ -92,7 +92,7 @@ class RefundRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario init Refund
+     * @scenario Init Refund
      * @case It rejected because authorization failed
      *
      * @test
