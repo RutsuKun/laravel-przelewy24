@@ -70,14 +70,8 @@ class Transfers24Test extends UnitTestCase
     public function emailSamples()
     {
         return [
-            [
-                'email' => 'test',
-                'expected' => null,
-            ],
-            [
-                'email' => 'test@test.pl',
-                'expected' => 'test@test.pl',
-            ]
+            '0' => ['email' => 'test', 'expected' => null],
+            '1' => ['email' => 'change@test.pl', 'expected' => 'change@test.pl'],
         ];
     }
 
