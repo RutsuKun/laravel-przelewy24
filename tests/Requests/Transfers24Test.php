@@ -72,7 +72,7 @@ class Transfers24Test extends UnitTestCase
         return [
             '0' => ['email' => 'test', 'expected' => null],
             '1' => ['email' => 'change@test.pl', 'expected' => 'change@test.pl'],
-            '2' => ['email' => 0, 'expected' => null],
+            '2' => ['email' => 1, 'expected' => null],
         ];
     }
 
