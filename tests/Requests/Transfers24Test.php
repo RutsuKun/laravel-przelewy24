@@ -67,6 +67,20 @@ class Transfers24Test extends UnitTestCase
      */
     private $receive_response_factory;
 
+    public function emailSamples()
+    {
+        return [
+            [
+                'email' => 'test',
+                'expected' => null,
+            ],
+            [
+                'email' => 'test@test.pl',
+                'expected' => 'test@test.pl',
+            ]
+        ];
+    }
+
     protected function setUp()
     {
         parent::setUp();
@@ -88,18 +102,15 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($test_array, $set_fields);
     }
 
-    /** @test */
-    public function validate_setEmail()
+    /**
+     * @test
+     * @dataProvider emailSamples
+     */
+    public function validate_setEmail($email, $expected)
     {
-        $email = 'test';
         $this->request->setEmail($email);
         $set_email = $this->request->getField('customer_email');
-        $this->assertNull($set_email);
-
-        $email = 'test@test.pl';
-        $this->request->setEmail($email);
-        $set_email = $this->request->getField('customer_email');
-        $this->assertEquals($set_email, $email);
+        $this->assertEquals($expected, $set_email);
     }
 
     /** @test */
