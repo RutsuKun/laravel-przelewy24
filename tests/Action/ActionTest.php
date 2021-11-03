@@ -82,12 +82,12 @@ class ActionTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
-     * @scenario Register Payment
+     * @feature Refunds
+     * @scenario Init Refund
      * @case Execute Action
      *
-     * @feature Refunds
-     * @scenario init Refund
+     * @feature Payments
+     * @scenario Register Payment
      * @case Execute Action
      *
      * @test

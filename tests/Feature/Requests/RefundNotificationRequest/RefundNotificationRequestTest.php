@@ -42,9 +42,10 @@ class RefundNotificationRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refund
-     * @Scenario notify Refund
-     * @Case Refund was started
+     * @feature Refunds
+     * @scenario notify Refund
+     * @case Refund was started
+     *
      * @test
      */
     public function refund_notification_was_received()

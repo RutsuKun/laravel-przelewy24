@@ -37,9 +37,10 @@ class RefundRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refund
-     * @Scenario init Refund
-     * @Case Refund was started
+     * @feature Refunds
+     * @scenario init Refund
+     * @case Refund was started
+     *
      * @test
      */
     public function refund_was_started_it_get_success_code()
@@ -62,9 +63,10 @@ class RefundRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refund
-     * @Scenario init Refund
-     * @Case It gets Refunds Collection
+     * @feature Refunds
+     * @scenario init Refund
+     * @case It gets Refunds Collection
+     *
      * @test
      */
     public function it_gets_refunds_collection()
@@ -89,9 +91,10 @@ class RefundRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refund
-     * @Scenario init Refund
-     * @Case It rejected because authorization failed
+     * @feature Refunds
+     * @scenario init Refund
+     * @case It rejected because authorization failed
+     *
      * @test
      */
     public function execute_was_failed_and_return_invalid_response()
