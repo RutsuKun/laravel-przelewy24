@@ -76,6 +76,19 @@ class Transfers24Test extends UnitTestCase
         ];
     }
 
+    public function amountSamples()
+    {
+        return [
+            [
+                'amount' => 12.5,
+                'currency' => 'eur',
+                'expected_currency' => 'EUR',
+                'expected_amount' => 1250,
+            ],
+
+        ];
+    }
+
     protected function setUp()
     {
         parent::setUp();
@@ -118,23 +131,23 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($expected, $set_email);
     }
 
-    /** @test */
-    public function validate_setAmount()
+    /** @test
+     *
+     * @dataProvider amountSamples
+     */
+    public function validate_setAmount($amount, $currency, $expected_currency, $expected_amount)
     {
-        $amount = 12.5;
-        $currency = 'eur';
-        $except_currency = 'EUR';
         $this->request->setAmount($amount, $currency);
         $set_amount = $this->request->getField('amount');
         $set_currency = $this->request->getField('currency');
-        $this->assertEquals($set_amount, 1250);
-        $this->assertEquals($set_currency, $except_currency);
+        $this->assertEquals($set_amount, $expected_amount);
+        $this->assertEquals($set_currency, $expected_currency);
 
         $amount = '12,5';
         $this->request->setAmount($amount);
         $set_amount = $this->request->getField('amount');
         $set_currency = $this->request->getField('currency');
-        $this->assertEquals($set_amount, 1250);
+        $this->assertEquals($set_amount, $expected_amount);
         $this->assertEquals($set_currency, Currency::PLN);
 
         $amount = '12';
