@@ -81,7 +81,17 @@ class ActionTest extends UnitTestCase
         $this->action->init($this->response_factory, $this->translator);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case Execute Action
+     *
+     * @feature Refunds
+     * @scenario init Refund
+     * @case Execute Action
+     *
+     * @test
+     */
     public function execute()
     {
         //Given
