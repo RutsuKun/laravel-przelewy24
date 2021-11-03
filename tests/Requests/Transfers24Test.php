@@ -88,7 +88,13 @@ class Transfers24Test extends UnitTestCase
         $this->request = $this->createConcreteRequest();
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case Set description payment
+     *
+     * @test
+     */
     public function validation_setDescription()
     {
         $test_array = [];
