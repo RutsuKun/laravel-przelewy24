@@ -104,7 +104,7 @@ class Transfers24Test extends UnitTestCase
 
     /**
      * @feature Payments
-     * @scenario Register Payments
+     * @scenario Register Payment
      * @case Set Email
      *
      * @test
