@@ -104,7 +104,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Payments
      * @scenario Register Payment
-     * @case Execute
+     * @case Run Action
+     *
      * @test
      */
     public function init()
