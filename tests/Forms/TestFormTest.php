@@ -20,9 +20,10 @@ class TestFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Test Form
-     * @Case get method
+     * @feature Payments
+     * @scenario Test Form
+     * @case It get Form Method
+     *
      * @test
      */
     public function get_method()
