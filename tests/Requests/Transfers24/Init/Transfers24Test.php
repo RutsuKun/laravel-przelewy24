@@ -101,7 +101,10 @@ class Transfers24Test extends UnitTestCase
         ]);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @test
+     */
     public function init()
     {
         //Given
