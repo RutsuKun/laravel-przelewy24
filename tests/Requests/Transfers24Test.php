@@ -305,7 +305,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($test_array, $set_fields);
     }
 
-    /** @test */
+    /**
+     * @test
+     * @feature Payments
+     * @scenario Register Payment
+     * @case Validate zip code
+     * @suite Validate User Data
+     */
     public function validation_set_zip_code()
     {
         $test_array = [];

@@ -35,7 +35,12 @@ class RegisterTest extends UnitTestCase
         $this->response = new ResponseRegister($this->form, $this->decoded_body);
     }
 
-    /** @test */
+    /**
+     * @test
+     * @feature Payments
+     * @scenario Register Payment
+     * @case It return Token
+     */
     public function verified_return_token()
     {
         $token_handler = '123456789';
