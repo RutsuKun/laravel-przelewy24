@@ -168,7 +168,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @scenario Payments
+     * @feature Payments
      * @scenario Register Payment
      * @case Validate Country
      * @suite Data Validation
