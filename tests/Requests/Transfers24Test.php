@@ -344,9 +344,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Payment
-     * @Case Register payment
+     * @feature Payments
+     * @scenario Register Payment
+     * @case Validate Action
+     *
      * @test
      */
     public function validation_init()

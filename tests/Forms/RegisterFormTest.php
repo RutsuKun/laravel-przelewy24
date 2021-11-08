@@ -20,9 +20,10 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Form
-     * @Case get method
+     * @feature Payments
+     * @scenario Register Form
+     * @case It get Form Method
+     *
      * @test
      */
     public function get_method()
@@ -35,9 +36,10 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Form
-     * @Case get uri
+     * @feature Payments
+     * @scenario Register Form
+     * @case It get Form Url
+     *
      * @test
      */
     public function get_uri()
