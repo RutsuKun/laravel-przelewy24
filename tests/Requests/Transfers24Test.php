@@ -73,6 +73,7 @@ class Transfers24Test extends UnitTestCase
             '0' => ['email' => 'test', 'expected' => null],
             '1' => ['email' => 'change@test.pl', 'expected' => 'change@test.pl'],
             '2' => ['email' => '1', 'expected' => null],
+            '3' => ['email' => 0, 'expected' => null],
         ];
     }
 
@@ -117,10 +118,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite Setting user data
      * @feature Payments
      * @scenario Register Payment
      * @case Set Email
-     *
+     * 
      * @test
      * @dataProvider emailSamples
      */
@@ -165,7 +167,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($set_amount, 0);
     }
 
-    /** @test */
+    /**
+     * @feature Payments
+     * @scenario Register Payment
+     * @case Validate Country
+     * @suite Data Validation
+     * @test
+     */
     public function validate_setCountry()
     {
         $country = 'Portugal';
