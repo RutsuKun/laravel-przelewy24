@@ -60,6 +60,7 @@ class Transfers24Test extends UnitTestCase
      * @Feature Payments
      * @Scenario Execute Payment
      * @Case Connection to sandbox
+     * @suite API
      * @test
      */
     public function test_get_test_host()
@@ -74,6 +75,7 @@ class Transfers24Test extends UnitTestCase
      * @Feature Payments
      * @Scenario Execute Payment
      * @Case Connection to sandbox
+     * @suite API
      * @test
      */
     public function test_get_test_host_with_path()
@@ -88,6 +90,7 @@ class Transfers24Test extends UnitTestCase
      * @Feature Payments
      * @Scenario Execute Payment
      * @Case Connection to live
+     * @suite API
      * @test
      */
     public function test_get_production_host()
@@ -103,6 +106,7 @@ class Transfers24Test extends UnitTestCase
      * @Feature Payments
      * @Scenario Execute Payment
      * @Case Send Payment
+     * @suite API
      * @test
      */
     public function send_payment()
