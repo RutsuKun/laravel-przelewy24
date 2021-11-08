@@ -165,7 +165,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($set_amount, 0);
     }
 
-    /** @test */
+    /**
+     * @scenario Payments
+     * @scenario Register Payment
+     * @case Validate Country
+     * @suite Data Validation
+     * @test
+     */
     public function validate_setCountry()
     {
         $country = 'Portugal';
