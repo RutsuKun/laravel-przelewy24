@@ -5,7 +5,7 @@ namespace Tests\Services;
 use Devpark\Transfers24\Services\Amount;
 use Tests\UnitTestCase;
 
-class CountryTest extends UnitTestCase
+class AmountTest extends UnitTestCase
 {
     public function provideAmount()
     {
