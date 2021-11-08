@@ -121,11 +121,8 @@ class Transfers24Test extends UnitTestCase
      * @feature Payments
      * @scenario Register Payment
      * @case Set Email
-     *
-     * @feature Payments1
-     * @scenario Register Payment1
-     * @case 1
-     *
+     * 
+     * 
      * @suite setting user data
      * @test
      * @dataProvider emailSamples
