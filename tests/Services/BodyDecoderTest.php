@@ -48,8 +48,8 @@ class BodyDecoderTest extends UnitTestCase
     /**
      * @feature Connection With Provider
      * @scenario Test Connection
-     * @case Receive Data
-     * 
+     * @case Are data received from Provider
+     *
      * @test
      */
     public function decode_test_connection()

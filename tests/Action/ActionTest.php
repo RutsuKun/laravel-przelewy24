@@ -90,13 +90,13 @@ class ActionTest extends UnitTestCase
      * @scenario Init Refund
      * @case Run Action
      *
-     * @feature Connection With Provider
-     * @scenario Test Connection
-     * @case Run Action
-     *
      * @feature Online Payments
      * @scenario Register Payment
      * @case Run Action
+     *
+     * @feature Connection With Provider
+     * @scenario Test Connection
+     * @case Does send Request Action executed
      *
      * @test
      */
