@@ -36,9 +36,10 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Offline Payments
-     * @Scenario Register
-     * @Case It gets refund info by order-id
+     * @feature Offline Payments
+     * @scenario Register Payment
+     * @case It gets refund info by order-id
+     *
      * @test
      */
     public function it_gets_successful_status()
