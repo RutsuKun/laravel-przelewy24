@@ -16,6 +16,7 @@ trait AmountTrait
             '5' => ['amount' => '0,01', 'expected' => 1],
             '6' => ['amount' => 1, 'expected' => 100],
             '9999' => ['amount' => 99.99, 'expected' => 9999],
+            '9' => ['amount' => 0.99, 'expected' => 99],
         ];
     }
 }
