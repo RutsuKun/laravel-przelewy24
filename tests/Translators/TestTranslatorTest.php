@@ -49,9 +49,10 @@ class TestTranslatorTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Check connection
-     * @Case translate test form
+     * @feature Connection with Provider
+     * @scenario Check connection
+     * @case translate test form
+     *
      * @test
      */
     public function translate()
