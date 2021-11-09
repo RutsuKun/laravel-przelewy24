@@ -145,7 +145,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertSame($expected_response, $response);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case It Provides correct Payment Link
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function trnRequest_return_response()
     {
         $this->makeGateway(true);

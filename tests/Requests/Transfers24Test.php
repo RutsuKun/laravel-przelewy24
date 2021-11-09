@@ -264,7 +264,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($label, $set_fields);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Client Name
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function validation_set_client_name()
     {
         $test_array = [];
@@ -299,7 +306,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($test_array, $set_fields);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Address
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function validation_set_address()
     {
         $test_array = [];
@@ -334,7 +348,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($test_array, $set_fields);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate City
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function validation_set_city()
     {
         $test_array = [];
