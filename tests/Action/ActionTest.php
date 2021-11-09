@@ -82,22 +82,22 @@ class ActionTest extends UnitTestCase
     }
 
     /**
-     * @feature Refunds
-     * @scenario Init Refund
-     * @case Run Action
-     * 
      * @feature Payment Methods
      * @scenario Get Payment Methods
      * @case Run Action
-     * 
+     *
+     * @feature Refunds
+     * @scenario Init Refund
+     * @case Run Action
+     *
      * @feature Payments
      * @scenario Register Payment
      * @case Run Action
-     * 
-     * @feature Connection with Provider
+     *
+     * @feature Test Connection
      * @scenario Init Conneciton
      * @case Run Action
-     * 
+     *
      * @test
      */
     public function execute()

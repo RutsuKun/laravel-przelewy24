@@ -95,9 +95,10 @@ class ViaCredentialsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Connection with Provider
-     * @Scenario Payment Processing
-     * @Case Scope Credentials for Merchant
+     * @feature Test Connection
+     * @scenario Payment Processing
+     * @case Scope Credentials for Merchant
+     *
      * @test
      */
     public function execute_viaCredentials_lack_merchant_credentials()
@@ -115,7 +116,7 @@ class ViaCredentialsTest extends UnitTestCase
     }
 
     /**
-     * @feature Connection with Provider
+     * @feature Test Connection
      * @scenario Test Connection
      * @case Scope Credentials for Merchant
      *
