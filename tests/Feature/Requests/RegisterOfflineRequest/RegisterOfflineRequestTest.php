@@ -55,9 +55,10 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario register offline
-     * @Case It returns empty data when not found refund
+     * @feature Online Payments
+     * @scenario register offline
+     * @case It returns empty data when not found refund
+     *
      * @test
      */
     public function it_gets_empty_transaction()
@@ -71,9 +72,10 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario register offline
-     * @Case It gets transaction by order-id
+     * @feature Online Payments
+     * @scenario register offline
+     * @case It gets transaction by order-id
+     *
      * @test
      */
     public function it_gets_transaction_details()
@@ -99,9 +101,10 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario register offline
-     * @Case It returns invalid data when authentication failed
+     * @feature Online Payments
+     * @scenario register offline
+     * @case It returns invalid data when authentication failed
+     *
      * @test
      */
     public function execute_was_failed_and_return_invalid_response()

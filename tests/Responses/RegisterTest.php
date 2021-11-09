@@ -36,10 +36,11 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @test
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case It return Token
+     *
+     * @test
      */
     public function verified_return_token()
     {
@@ -60,7 +61,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case It return error massage
      *
@@ -76,7 +77,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case It return error massage
      *
@@ -93,10 +94,10 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case It return error massage
-     * 
+     *
      * @test
      */
     public function check_correct_request_paramters_passing()

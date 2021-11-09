@@ -33,9 +33,10 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Payment Form
-     * @Case Calculate Crc
+     * @feature Online Payments
+     * @scenario Payment Form
+     * @case Calculate Crc
+     *
      * @test
      */
     public function test_calculate_CRC_sum()
@@ -62,9 +63,10 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Payment Form
-     * @Case Calculate Crc without salt
+     * @feature Online Payments
+     * @scenario Payment Form
+     * @case Calculate Crc without salt
+     *
      * @test
      */
     public function test_calculate_CRC_sum_without_salt()
@@ -94,9 +96,10 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Payment Form
-     * @Case Calculate Crc with empty data
+     * @feature Online Payments
+     * @scenario Payment Form
+     * @case Calculate Crc with empty data
+     *
      * @test
      */
     public function test_return_null_after_calculate_CRC_with_empty_value()

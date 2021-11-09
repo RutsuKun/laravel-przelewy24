@@ -20,7 +20,7 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Form
      * @case It get Form Method
      *
@@ -36,7 +36,7 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Form
      * @case It get Form Url
      *

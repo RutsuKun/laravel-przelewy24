@@ -20,7 +20,7 @@ class TestFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Test Form
      * @case It get Form Method
      *

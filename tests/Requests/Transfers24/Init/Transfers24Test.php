@@ -102,7 +102,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Run Action
      *

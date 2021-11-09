@@ -17,9 +17,10 @@ class AmountTest extends UnitTestCase
     }
 
     /**
-     * @feature Payments
-     * @Scenario Register Payment
+     * @feature Online Payments
+     * @scenario Register Payment
      * @case Set Payment Amount
+     *
      * @test
      * @dataProvider provideAmount
      *

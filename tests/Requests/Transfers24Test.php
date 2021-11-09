@@ -98,7 +98,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Set description payment
      *
@@ -118,11 +118,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Set Email
-     * 
-     * 
+     *
      * @suite setting user data
      * @test
      * @dataProvider emailSamples
@@ -135,11 +134,12 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @test
-     * 
-     * @Feature Payments
-     * @Scenario Register Payment
+     * @feature Online Payments
+     * @scenario Register Payment
      * @case Set Amount
+     *
+     * @test
+     *
      * @dataProvider amountSamples
      */
     public function validate_setAmount($amount, $currency, $expected_currency, $expected_amount)
@@ -169,9 +169,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Validate Country
+     *
      * @suite Data Validation
      * @test
      */
@@ -306,10 +307,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @test
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Validate zip code
+     *
+     * @test
      * @suite Validate User Data
      */
     public function validation_set_zip_code()
@@ -340,9 +342,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Payment
-     * @Case Set shipping cost
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set shipping cost
+     *
      * @test
      */
     public function shippingCost_validate()
@@ -359,7 +362,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Payments
+     * @feature Online Payments
      * @scenario Register Payment
      * @case Validate Action
      *
@@ -389,9 +392,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Payment
-     * @Case Validation exception
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validation exception
+     *
      * @test
      */
     public function validation_exception()
@@ -405,9 +409,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Payment
-     * @Case Set default Urls
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set default Urls
+     *
      * @test
      */
     public function validate_set_Default_urls()
@@ -422,9 +427,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Register Payment
-     * @Case Set relative Urls
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set relative Urls
+     *
      * @test
      */
     public function it_sets_valid_urls_for_relative_urls()

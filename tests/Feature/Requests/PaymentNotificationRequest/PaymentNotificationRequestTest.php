@@ -41,9 +41,10 @@ class PaymentNotificationRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario notify Payment
-     * @Case Payment was finished
+     * @feature Online Payments
+     * @scenario notify Payment
+     * @case Payment was finished
+     *
      * @test
      */
     public function execute_notification_was_received()

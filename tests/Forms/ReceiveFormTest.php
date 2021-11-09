@@ -20,9 +20,10 @@ class ReceiveFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Receive Form
-     * @Case get method
+     * @feature Online Payments
+     * @scenario Receive Form
+     * @case get method
+     *
      * @test
      */
     public function get_method()
@@ -35,9 +36,10 @@ class ReceiveFormTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Receive Form
-     * @Case get uri
+     * @feature Online Payments
+     * @scenario Receive Form
+     * @case get uri
+     *
      * @test
      */
     public function get_uri()

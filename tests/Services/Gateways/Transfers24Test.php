@@ -57,9 +57,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Execute Payment
-     * @Case Connection to sandbox
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case Connection to sandbox
+     *
      * @suite API
      * @test
      */
@@ -72,9 +73,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Execute Payment
-     * @Case Connection to sandbox
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case Connection to sandbox
+     *
      * @suite API
      * @test
      */
@@ -87,9 +89,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Execute Payment
-     * @Case Connection to live
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case Connection to live
+     *
      * @suite API
      * @test
      */
@@ -103,9 +106,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Execute Payment
-     * @Case Send Payment
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case Send Payment
+     *
      * @suite API
      * @test
      */

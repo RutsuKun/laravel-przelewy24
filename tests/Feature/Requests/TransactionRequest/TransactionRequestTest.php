@@ -36,9 +36,10 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Getting Transaction
-     * @Case It gets transaction by session-id
+     * @feature Online Payments
+     * @scenario Getting Transaction
+     * @case It gets transaction by session-id
+     *
      * @test
      */
     public function it_gets_successful_status()
@@ -53,9 +54,10 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Getting Transaction
-     * @Case It return empty data when not found transaction
+     * @feature Online Payments
+     * @scenario Getting Transaction
+     * @case It return empty data when not found transaction
+     *
      * @test
      */
     public function it_gets_empty_transaction()
@@ -72,9 +74,10 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Getting Transaction
-     * @Case It gets transaction by session-id
+     * @feature Online Payments
+     * @scenario Getting Transaction
+     * @case It gets transaction by session-id
+     *
      * @test
      */
     public function it_gets_transaction_details()
@@ -109,9 +112,10 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payments
-     * @Scenario Getting Transaction
-     * @Case It return invalid data when authentication failed
+     * @feature Online Payments
+     * @scenario Getting Transaction
+     * @case It return invalid data when authentication failed
+     *
      * @test
      */
     public function execute_was_failed_and_return_invalid_response()
