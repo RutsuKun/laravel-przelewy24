@@ -22,7 +22,7 @@ class TestFormTest extends UnitTestCase
     /**
      * @feature Connection With Provider
      * @scenario Test Connection
-     * @case It get Method For Test Form
+     * @case Is `GET` request type called for connection test
      *
      * @test
      */
