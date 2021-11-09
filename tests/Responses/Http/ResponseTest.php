@@ -20,7 +20,13 @@ class ResponseTest extends UnitTestCase
         $this->response = new Response();
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Parse Provider Data
+     * 
+     * @test
+     */
     public function is_status_code_add_and_get_same()
     {
         $status_code = 200;
@@ -30,7 +36,13 @@ class ResponseTest extends UnitTestCase
         $this->assertEquals($status_code, $this->response->getStatusCode());
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Parse Provider Data
+     * 
+     * @test
+     */
     public function is_body_add_and_get_same()
     {
         $body = 'body of response';
@@ -40,7 +52,13 @@ class ResponseTest extends UnitTestCase
         $this->assertEquals($body, $this->response->getBody());
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Parse Provider Data
+     * 
+     * @test
+     */
     public function is_form_params_add_and_get_same()
     {
         $form = new RegisterForm();
