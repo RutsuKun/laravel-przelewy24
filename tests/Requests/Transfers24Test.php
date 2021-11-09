@@ -229,7 +229,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($url, $set_url);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate User Data
+     * 
+     * @test
+     */
     public function filterString_validate()
     {
         $name_array = [];
@@ -241,7 +247,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertTrue($filter);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate User Data
+     * 
+     * @test
+     */
     public function filterNumber_validate()
     {
         $name_array = [];
