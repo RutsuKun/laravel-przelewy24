@@ -35,7 +35,13 @@ class VerifyTest extends UnitTestCase
         $this->response = new ResponseVerify($this->form, $this->decoded_body);
     }
 
-    /** @test */
+    /**
+     * @feature Payment Verification
+     * @scenario Verify Payment 
+     * @case Parse verified data
+     * 
+     * @test
+     */
     public function check_same_response_parameters()
     {
         $parameters_handler = [
@@ -48,7 +54,13 @@ class VerifyTest extends UnitTestCase
         $this->assertEquals($parameters, $parameters_handler);
     }
 
-    /** @test */
+    /**
+     * @feature Payment Verification
+     * @scenario Verify Payment 
+     * @case Parse verified data
+     * 
+     * @test
+     */
     public function check_same_order_id()
     {
         $order_id_handler = '123456789';
