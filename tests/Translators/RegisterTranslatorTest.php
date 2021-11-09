@@ -57,8 +57,8 @@ class RegisterTranslatorTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Register Form
-     * @case translate register form
+     * @scenario Register Payment
+     * @case It translated Register Form
      *
      * @test
      */

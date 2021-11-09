@@ -42,7 +42,7 @@ class PaymentNotificationRequestTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario notify Payment
+     * @scenario Notify Payment
      * @case Payment was finished
      *
      * @test

@@ -21,8 +21,8 @@ class RegisterFormTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Register Form
-     * @case It get Form Method
+     * @scenario Register Payment
+     * @case It gets Form Method for Register Form
      *
      * @test
      */
@@ -37,8 +37,8 @@ class RegisterFormTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Register Form
-     * @case It get Form Url
+     * @scenario Register Payment
+     * @case It get Form Url for Register Form
      *
      * @test
      */
