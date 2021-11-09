@@ -49,7 +49,7 @@ class ReceiveTranslatorTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Payment Methods
      * @scenario Receive Form
      * @case translate receive form
      *
