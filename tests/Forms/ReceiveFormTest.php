@@ -38,7 +38,7 @@ class ReceiveFormTest extends UnitTestCase
     /**
      * @feature Payment Verification
      * @scenario Receive Form
-     * @case get uri
+     * @case get URL for Verification Payment
      *
      * @test
      */

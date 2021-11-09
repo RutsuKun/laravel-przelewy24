@@ -51,7 +51,7 @@ class ReceiveTranslatorTest extends UnitTestCase
     /**
      * @feature Payment Verification
      * @scenario Receive Form
-     * @case translate receive form
+     * @case translate data for Verification Payment
      *
      * @test
      */
