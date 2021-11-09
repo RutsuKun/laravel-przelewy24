@@ -549,7 +549,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($response, 'http://redirect');
     }
 
-    /** @test */
+    /**
+     * @feature Verification Payments
+     * @scenario Verify Payment
+     * @case Run Aciton
+     * 
+     * @test
+     */
     public function test_receive_transfers24_request()
     {
         $translator = m::mock(ReceiveTranslator::class);
