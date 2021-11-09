@@ -94,7 +94,7 @@ class ActionTest extends UnitTestCase
      * @scenario Register Payment
      * @case Run Action
      *
-     * @feature Test Connection
+     * @feature Connection with Provider
      * @scenario Init Conneciton
      * @case Run Action
      *
