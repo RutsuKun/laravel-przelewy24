@@ -11,7 +11,14 @@ class LanguageTest extends UnitTestCase
         parent::setUp();
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function set_one_from_avalible_language()
     {
         $language = 'ENGLISH';

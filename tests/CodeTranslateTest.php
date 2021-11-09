@@ -31,7 +31,14 @@ class CodeTranslateTest extends UnitTestCase
         $this->assertEquals($avalable_codes, $codes);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function set_one_from_avalible_codes()
     {
         $default_code = '999';

@@ -35,7 +35,14 @@ class CurrencyTest extends UnitTestCase
         $this->assertEquals($available_currencies, $currencies);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function set_one_from_available_currencies()
     {
         $currency = 'GBP';

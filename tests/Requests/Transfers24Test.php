@@ -257,7 +257,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertTrue($filter);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function setTransferLabel_validation()
     {
         $test_array = [];
@@ -494,7 +501,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals('http://sample.domain/def', $url_status);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function it_sets_valid_urls_for_absolute_urls()
     {
         $config = m::mock(Config::class);
@@ -605,7 +619,14 @@ class Transfers24Test extends UnitTestCase
         ] + $dependent);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Set User Data
+     * 
+     * @suite Set User Data
+     * @test
+     */
     public function setNextArticle_validate()
     {
         $next_article = [
