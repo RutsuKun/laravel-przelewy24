@@ -34,8 +34,8 @@ class CrcTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Payment Form
-     * @case Calculate Crc
+     * @scenario Register Payment
+     * @case Calculate Crc for Payment Form
      *
      * @test
      */
@@ -64,8 +64,8 @@ class CrcTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Payment Form
-     * @case Calculate Crc without salt
+     * @scenario Register Payment
+     * @case Calculate Crc without salt for Payment Form
      *
      * @test
      */
@@ -97,8 +97,8 @@ class CrcTest extends UnitTestCase
 
     /**
      * @feature Online Payments
-     * @scenario Payment Form
-     * @case Calculate Crc with empty data
+     * @scenario Register Payment
+     * @case Calculate Crc with empty data for Payment Form
      *
      * @test
      */
