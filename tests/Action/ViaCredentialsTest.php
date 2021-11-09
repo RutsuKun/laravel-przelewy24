@@ -96,7 +96,7 @@ class ViaCredentialsTest extends UnitTestCase
 
     /**
      * @feature Connection with Provider
-     * @scenario Payment Processing
+     * @scenario Test Connection
      * @case Scope Credentials for Merchant
      *
      * @test
