@@ -49,7 +49,7 @@ class TestTranslatorTest extends UnitTestCase
     }
 
     /**
-     * @feature Connection with Provider
+     * @feature Connection With Provider
      * @scenario Test Connection
      * @case It translate Test Form
      *
