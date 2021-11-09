@@ -94,6 +94,10 @@ class ActionTest extends UnitTestCase
      * @scenario Register Payment
      * @case Run Action
      * 
+     * @feature Connection with Provider
+     * @scenario Init Conneciton
+     * @case Run Action
+     * 
      * @test
      */
     public function execute()
