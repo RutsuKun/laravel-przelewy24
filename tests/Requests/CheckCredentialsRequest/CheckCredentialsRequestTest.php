@@ -85,9 +85,10 @@ class CheckCredentialsRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Connection with Provider
-     * @Scenario Testing Connection
-     * @Case Connection passed
+     * @feature Connection with Provider
+     * @scenario Test Connection
+     * @case Connection passed
+     *
      * @test
      */
     public function execute_was_call_transfers_provider_test_connection()
@@ -100,9 +101,10 @@ class CheckCredentialsRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Connection with Provider
-     * @Scenario Testing Connection
-     * @Case Connection failed
+     * @feature Connection with Provider
+     * @scenario Test Connection
+     * @case Connection failed
+     *
      * @test
      */
     public function execute_throw_invalid_response()

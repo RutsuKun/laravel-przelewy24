@@ -115,9 +115,10 @@ class ViaCredentialsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Connection with Provider
-     * @Scenario Testing Connection
-     * @Case Scope Credentials for Merchant
+     * @feature Connection with Provider
+     * @scenario Test Connection
+     * @case Scope Credentials for Merchant
+     *
      * @test
      */
     public function viaCredentials_lack_environment_setting_in_merchant_credentials()
