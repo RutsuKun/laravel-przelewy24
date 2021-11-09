@@ -184,7 +184,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($set_country, 'PT');
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Language
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function validate_setLanguage()
     {
         $language = 'german';
@@ -511,7 +518,13 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals('https://def.example', $url_status);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Execute Payment
+     * @case It gets Payment Link
+     * 
+     * @test
+     */
     public function test_execution_payment()
     {
         $this->request_concrete = $this->createConcreteRequest();

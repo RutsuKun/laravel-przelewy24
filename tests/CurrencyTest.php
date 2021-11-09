@@ -12,7 +12,14 @@ class CurrencyTest extends UnitTestCase
         parent::setUp();
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Currency
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function is_correct_array_if_currencies()
     {
         $currencies = [

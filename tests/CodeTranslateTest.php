@@ -12,7 +12,14 @@ class CodeTranslateTest extends UnitTestCase
         parent::setUp();
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Language
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function is_correct_code_array()
     {
         $codes = [
