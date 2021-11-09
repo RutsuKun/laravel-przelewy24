@@ -58,7 +58,8 @@ class RegisterOfflineRequestTest extends UnitTestCase
      * @feature Offline Payments
      * @scenario Register Payment
      * @case It returns empty data when not found refund
-     *
+     * @todo wrong naming variables
+     * 
      * @test
      */
     public function it_gets_empty_transaction()
