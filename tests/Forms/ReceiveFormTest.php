@@ -20,10 +20,10 @@ class ReceiveFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
-     * @scenario Receive Form
-     * @case get method
-     *
+     * @feature Payment Verification
+     * @scenario Verify Payment 
+     * @case get method for Receive Form
+     * 
      * @test
      */
     public function get_method()
