@@ -550,10 +550,10 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @feature Verification Payments
+     * @feature Payment Verification
      * @scenario Verify Payment
      * @case Run Aciton
-     * 
+     *
      * @test
      */
     public function test_receive_transfers24_request()
