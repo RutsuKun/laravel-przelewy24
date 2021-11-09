@@ -55,8 +55,8 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
-     * @scenario register offline
+     * @feature Offline Payments
+     * @scenario Register Payment
      * @case It returns empty data when not found refund
      *
      * @test
@@ -72,8 +72,8 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
-     * @scenario register offline
+     * @feature Offline Payments
+     * @scenario Register Payment
      * @case It gets transaction by order-id
      *
      * @test
@@ -101,8 +101,8 @@ class RegisterOfflineRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
-     * @scenario register offline
+     * @feature Offline Payments
+     * @scenario Register Payment
      * @case It returns invalid data when authentication failed
      *
      * @test
