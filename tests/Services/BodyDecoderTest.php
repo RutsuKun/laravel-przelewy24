@@ -20,7 +20,13 @@ class BodyDecoderTest extends UnitTestCase
         $this->body_decoder = new BodyDecoder();
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Receive Provider Data
+     * 
+     * @test
+     */
     public function decode_token()
     {
         $body = json_encode([
@@ -39,7 +45,13 @@ class BodyDecoderTest extends UnitTestCase
         $this->assertSame('token', $decoded->getToken());
     }
 
-    /** @test */
+    /**
+     * @feature Connection With Provider
+     * @scenario Test Connection
+     * @case Receive Data
+     * 
+     * @test
+     */
     public function decode_test_connection()
     {
         $body = json_encode([
@@ -55,7 +67,13 @@ class BodyDecoderTest extends UnitTestCase
         $this->assertSame($status_code, $decoded->getStatusCode());
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Receive Provider Error
+     * 
+     * @test
+     */
     public function decode_error()
     {
         $body = json_encode([
@@ -71,7 +89,13 @@ class BodyDecoderTest extends UnitTestCase
         $this->assertSame(400, $decoded->getStatusCode());
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Receive Provider Error
+     * 
+     * @test
+     */
     public function decode_error_message()
     {
         $body = json_encode([

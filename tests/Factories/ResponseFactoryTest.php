@@ -32,7 +32,13 @@ class ResponseFactoryTest extends UnitTestCase
         ]);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Receive Provider Data
+     * 
+     * @test
+     */
     public function create()
     {
         //Given
