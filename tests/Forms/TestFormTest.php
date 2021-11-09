@@ -20,8 +20,8 @@ class TestFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
-     * @scenario Test Form
+     * @feature Connection with Provider
+     * @scenario Test Connection
      * @case It get Form Method
      *
      * @test
