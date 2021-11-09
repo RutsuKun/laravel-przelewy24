@@ -278,7 +278,14 @@ class Transfers24Test extends UnitTestCase
         $this->assertEquals($test_array, $set_fields);
     }
 
-    /** @test */
+    /**
+     * @feature Online Payments
+     * @scenario Register Payment
+     * @case Validate Client Phone
+     * 
+     * @suite Data Validation
+     * @test
+     */
     public function validation_set_client_phone()
     {
         $test_array = [];
