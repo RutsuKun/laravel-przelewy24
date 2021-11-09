@@ -36,9 +36,10 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payment Methods
-     * @Scenario Getting Payment Methods
-     * @Case It gets payment methods for default language
+     * @feature Payment Methods
+     * @scenario Get Payment Methods
+     * @case It gets payment methods for default language
+     *
      * @test
      */
     public function it_gets_payment_methods_for_default_language()
@@ -53,9 +54,10 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payment Methods
-     * @Scenario Getting Payment Methods
-     * @Case It gets payment methods for set language
+     * @feature Payment Methods
+     * @scenario Get Payment Methods
+     * @case It gets payment methods for set language
+     *
      * @test
      */
     public function it_gets_payment_methods_for_set_language()
@@ -71,9 +73,10 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payment Methods
-     * @Scenario Getting Payment Methods
-     * @Case It gets payment methods collection
+     * @feature Payment Methods
+     * @scenario Get Payment Methods
+     * @case It gets payment methods collection
+     *
      * @test
      */
     public function it_gets_payment_methods_collection()
@@ -99,9 +102,10 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @Feature Payment Methods
-     * @Scenario Getting Payment Methods
-     * @Case It gets payment methods for set language
+     * @feature Payment Methods
+     * @scenario Get Payment Methods
+     * @case It gets payment methods for set language
+     *
      * @test
      */
     public function execute_was_failed_and_return_invalid_response()
