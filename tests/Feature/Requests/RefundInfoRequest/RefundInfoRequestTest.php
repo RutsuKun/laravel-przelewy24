@@ -36,9 +36,10 @@ class RefundInfoRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refunds
-     * @Scenario Getting RefundInfo
-     * @Case It gets refund info by order-id
+     * @feature Refunds
+     * @scenario Getting RefundInfo
+     * @case It gets refund info by Order Identifier
+     *
      * @test
      */
     public function it_gets_successful_status()
@@ -70,9 +71,10 @@ class RefundInfoRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refunds
-     * @Scenario Getting RefundInfo
-     * @Case It gets transaction by order-id
+     * @feature Refunds
+     * @scenario Getting RefundInfo
+     * @case It gets transaction by Order Identifier
+     *
      * @test
      */
     public function it_gets_transaction_details()
