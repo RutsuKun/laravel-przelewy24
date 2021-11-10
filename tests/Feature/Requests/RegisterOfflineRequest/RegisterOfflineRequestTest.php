@@ -38,7 +38,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case Refund was started
+     * @case Offline Payment was started
      *
      * @test
      */
