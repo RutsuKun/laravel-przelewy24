@@ -38,7 +38,7 @@ class PaymentMethodsTest extends UnitTestCase
     /**
      * @feature Payment Methods
      * @scenario Get Payment Methods
-     * @case It gets payment methods for default language
+     * @case Is default language used for getting Payment Methods
      *
      * @test
      */
@@ -56,7 +56,7 @@ class PaymentMethodsTest extends UnitTestCase
     /**
      * @feature Payment Methods
      * @scenario Get Payment Methods
-     * @case It gets payment methods for set language
+     * @case Is indicated language used for getting Payment Methods
      *
      * @test
      */
@@ -104,7 +104,7 @@ class PaymentMethodsTest extends UnitTestCase
     /**
      * @feature Payment Methods
      * @scenario Get Payment Methods
-     * @case It gets payment methods for set language
+     * @case Is indicated language used for getting Payment Methods
      *
      * @test
      */

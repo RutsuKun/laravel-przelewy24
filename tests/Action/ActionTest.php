@@ -84,7 +84,7 @@ class ActionTest extends UnitTestCase
     /**
      * @feature Payment Methods
      * @scenario Get Payment Methods
-     * @case Run Action
+     * @case Does send Request Action executed
      *
      * @feature Refunds
      * @scenario Init Refund
