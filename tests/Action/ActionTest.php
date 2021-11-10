@@ -88,7 +88,7 @@ class ActionTest extends UnitTestCase
      *
      * @feature Refunds
      * @scenario Init Refund
-     * @case Run Action
+     * @case Does send Request Action executed
      *
      * @feature Online Payments
      * @scenario Register Payment

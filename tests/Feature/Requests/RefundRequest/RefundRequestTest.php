@@ -93,7 +93,7 @@ class RefundRequestTest extends UnitTestCase
     /**
      * @feature Refunds
      * @scenario Init Refund
-     * @case It rejected because authorization failed
+     * @case It rejected Refund because authorization failed
      *
      * @test
      */
