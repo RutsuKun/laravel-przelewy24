@@ -547,8 +547,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Execute Payment
-     * @case It gets Payment Link
-     * 
+     * @case Is Payment Link created
+     *
      * @test
      */
     public function test_execution_payment()

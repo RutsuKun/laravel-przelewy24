@@ -108,7 +108,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Execute Payment
-     * @case Send Payment
+     * @case Does send Request Action executed
      *
      * @suite API
      * @test
@@ -148,8 +148,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Execute Payment
-     * @case It Provides correct Payment Link
-     * 
+     * @case Is Payment Link correct
+     *
      * @suite Data Validation
      * @test
      */
