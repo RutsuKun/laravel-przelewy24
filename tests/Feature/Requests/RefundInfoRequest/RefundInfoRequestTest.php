@@ -55,9 +55,10 @@ class RefundInfoRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refunds
-     * @Scenario Getting RefundInfo
-     * @Case It returns empty data when not found refund
+     * @feature Refunds
+     * @scenario Getting RefundInfo
+     * @case It returns empty data when not found Refund
+     *
      * @test
      */
     public function it_gets_empty_transaction()
@@ -73,7 +74,7 @@ class RefundInfoRequestTest extends UnitTestCase
     /**
      * @feature Refunds
      * @scenario Getting RefundInfo
-     * @case It gets transaction by Order Identifier
+     * @case It gets refunded Payment Info by Order Identifier
      *
      * @test
      */
