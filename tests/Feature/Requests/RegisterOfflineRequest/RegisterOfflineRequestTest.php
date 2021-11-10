@@ -38,7 +38,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case Refund was started
+     * @case Offline Payment was started with success
      *
      * @test
      */
@@ -57,7 +57,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It returns Invalid data when unknown token
+     * @case Is "Invalid data" returned when unknown token used
      *
      * @test
      */
@@ -73,7 +73,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It returns offline Payment Info
+     * @case get offline Payment details
      *
      * @test
      */
@@ -101,7 +101,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It returns invalid data when authentication failed
+     * @case Is "Invalid data" returned when authentication failed
      *
      * @test
      */
