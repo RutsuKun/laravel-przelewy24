@@ -35,8 +35,8 @@ class ResponseFactoryTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Receive Provider Data
-     * 
+     * @case Are data received from Provider
+     *
      * @test
      */
     public function create()

@@ -100,7 +100,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set description payment
+     * @case It set entry Data
      *
      * @test
      */
@@ -118,10 +118,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite set user data
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set Email
+     * @case It set entry Data
+     *
+     * @suite set user data
      *
      * @test
      * @dataProvider emailSamples
@@ -136,7 +137,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set Amount
+     * @case It set entry Data
      *
      * @test
      *
@@ -171,7 +172,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Country
+     * @case Are entry data validated
      *
      * @suite Data Validation
      * @test
@@ -187,8 +188,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Language
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -232,8 +233,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate User Data
-     * 
+     * @case Are entry data validated
+     *
      * @test
      */
     public function filterString_validate()
@@ -250,8 +251,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate User Data
-     * 
+     * @case Are entry data validated
+     *
      * @test
      */
     public function filterNumber_validate()
@@ -272,8 +273,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set User Data
-     * 
+     * @case It set entry Data
+     *
      * @suite Set User Data
      * @test
      */
@@ -293,8 +294,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Client Name
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -314,8 +315,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Client Phone
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -335,8 +336,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Address
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -356,7 +357,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate zip code
+     * @case Are entry data validated
      *
      * @test
      * @suite Validate User Data
@@ -377,8 +378,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate City
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -398,7 +399,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set shipping cost
+     * @case It set shipping Data
      *
      * @test
      */
@@ -418,7 +419,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Action
+     * @case Are entry data validated
      *
      * @test
      */
@@ -448,7 +449,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validation exception
+     * @case It stops process when not found mandatory entry data
      *
      * @test
      */
@@ -465,7 +466,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set default Urls
+     * @case It set required Urls
      *
      * @test
      */
@@ -483,7 +484,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set relative Urls
+     * @case It set required Urls
      *
      * @test
      */
@@ -516,8 +517,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set User Data
-     * 
+     * @case It set entry Data
+     *
      * @suite Set User Data
      * @test
      */
@@ -634,8 +635,8 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set User Data
-     * 
+     * @case It set entry Data
+     *
      * @suite Set User Data
      * @test
      */

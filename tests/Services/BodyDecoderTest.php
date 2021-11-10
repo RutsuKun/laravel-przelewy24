@@ -23,8 +23,8 @@ class BodyDecoderTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Receive Provider Data
-     * 
+     * @case Are data received from Provider
+     *
      * @test
      */
     public function decode_token()
@@ -70,8 +70,8 @@ class BodyDecoderTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Receive Provider Error
-     * 
+     * @case Are error message received from Provider
+     *
      * @test
      */
     public function decode_error()
@@ -92,8 +92,8 @@ class BodyDecoderTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Receive Provider Error
-     * 
+     * @case Are error message received from Provider
+     *
      * @test
      */
     public function decode_error_message()

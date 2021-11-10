@@ -15,8 +15,8 @@ class CodeTranslateTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Validate Language
-     * 
+     * @case Are entry data validated
+     *
      * @suite Data Validation
      * @test
      */
@@ -34,8 +34,8 @@ class CodeTranslateTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set User Data
-     * 
+     * @case It set entry Data
+     *
      * @suite Set User Data
      * @test
      */

@@ -14,8 +14,8 @@ class LanguageTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Set User Data
-     * 
+     * @case It set entry Data
+     *
      * @suite Set User Data
      * @test
      */

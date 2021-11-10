@@ -23,8 +23,8 @@ class ResponseTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Parse Provider Data
-     * 
+     * @case Are data from Provider parsed
+     *
      * @test
      */
     public function is_status_code_add_and_get_same()
@@ -39,8 +39,8 @@ class ResponseTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Parse Provider Data
-     * 
+     * @case Are data from Provider parsed
+     *
      * @test
      */
     public function is_body_add_and_get_same()
@@ -55,8 +55,8 @@ class ResponseTest extends UnitTestCase
     /**
      * @feature Online Payments
      * @scenario Register Payment
-     * @case Parse Provider Data
-     * 
+     * @case Are data from Provider parsed
+     *
      * @test
      */
     public function is_form_params_add_and_get_same()
