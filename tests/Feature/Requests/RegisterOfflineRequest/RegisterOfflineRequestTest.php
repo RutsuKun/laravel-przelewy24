@@ -101,7 +101,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It returns invalid data when authentication failed
+     * @case It returns Invalid data when authentication failed
      *
      * @test
      */
