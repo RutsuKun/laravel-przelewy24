@@ -38,7 +38,7 @@ class RefundInfoRequestTest extends UnitTestCase
     /**
      * @feature Refunds
      * @scenario Getting RefundInfo
-     * @case It gets refund info by Order Identifier
+     * @case It returns refund info by Order Identifier
      *
      * @test
      */
@@ -74,7 +74,7 @@ class RefundInfoRequestTest extends UnitTestCase
     /**
      * @feature Refunds
      * @scenario Getting RefundInfo
-     * @case It gets refunded Payment Info by Order Identifier
+     * @case It returns refunded Payment Info by Order Identifier
      *
      * @test
      */

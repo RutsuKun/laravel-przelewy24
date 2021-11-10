@@ -65,7 +65,7 @@ class RefundRequestTest extends UnitTestCase
     /**
      * @feature Refunds
      * @scenario Init Refund
-     * @case It gets Refunds Collection
+     * @case It returns Refunds Collection
      *
      * @test
      */

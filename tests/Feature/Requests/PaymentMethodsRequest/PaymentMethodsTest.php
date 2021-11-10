@@ -75,7 +75,7 @@ class PaymentMethodsTest extends UnitTestCase
     /**
      * @feature Payment Methods
      * @scenario Get Payment Methods
-     * @case It gets Payment Methods collection
+     * @case It returns Payment Methods collection
      *
      * @test
      */

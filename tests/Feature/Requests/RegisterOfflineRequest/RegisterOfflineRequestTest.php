@@ -38,7 +38,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It gets refund info by order identifier
+     * @case Refund was started
      *
      * @test
      */
@@ -57,9 +57,8 @@ class RegisterOfflineRequestTest extends UnitTestCase
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It returns empty data when not found refund
-     * @todo wrong naming variables
-     * 
+     * @case It returns Invalid data when unknown token
+     *
      * @test
      */
     public function it_gets_empty_transaction()
@@ -69,36 +68,34 @@ class RegisterOfflineRequestTest extends UnitTestCase
         $this->request->setToken($token);
         $response = $this->request->execute();
         $this->assertInstanceOf(InvalidResponse::class, $response);
-//        $this->assertSame(404, $response->getErrorCode());
     }
 
     /**
      * @feature Offline Payments
      * @scenario Register Payment
-     * @case It gets transaction by order-id
+     * @case It returns offline Payment Info
      *
      * @test
      */
     public function it_gets_transaction_details()
     {
         $response = $this->makeResponse();
+        $offline_payment = $this->makeRegisterOffline();
 
-        $refund_info = $this->makeRegisterOffline();
-
-        $token = 'order-id';
+        $token = 'token';
         $this->requestGettingRegisterOfflineSuccessful($response, $token);
         $this->request->setToken($token);
         $response = $this->request->execute();
 
         $this->assertInstanceOf(RegisterOfflineResponse::class, $response);
 
-        $this->assertSame($refund_info->orderId, $response->getOffline()->orderId);
-        $this->assertSame($refund_info->sessionId, $response->getOffline()->sessionId);
-        $this->assertSame($refund_info->amount, $response->getOffline()->amount);
-        $this->assertSame($refund_info->statement, $response->getOffline()->statement);
-        $this->assertSame($refund_info->iban, $response->getOffline()->iban);
-        $this->assertSame($refund_info->ibanOwner, $response->getOffline()->ibanOwner);
-        $this->assertSame($refund_info->ibanOwnerAddress, $response->getOffline()->ibanOwnerAddress);
+        $this->assertSame($offline_payment->orderId, $response->getOffline()->orderId);
+        $this->assertSame($offline_payment->sessionId, $response->getOffline()->sessionId);
+        $this->assertSame($offline_payment->amount, $response->getOffline()->amount);
+        $this->assertSame($offline_payment->statement, $response->getOffline()->statement);
+        $this->assertSame($offline_payment->iban, $response->getOffline()->iban);
+        $this->assertSame($offline_payment->ibanOwner, $response->getOffline()->ibanOwner);
+        $this->assertSame($offline_payment->ibanOwnerAddress, $response->getOffline()->ibanOwnerAddress);
     }
 
     /**
@@ -110,7 +107,7 @@ class RegisterOfflineRequestTest extends UnitTestCase
      */
     public function execute_was_failed_and_return_invalid_response()
     {
-        $token = 'order-id';
+        $token = 'token';
         $this->requestRegisterOfflineFailed($token);
         $response = $this->request->setToken($token)->execute();
 
