@@ -21,9 +21,9 @@ class ReceiveFormTest extends UnitTestCase
 
     /**
      * @feature Payment Verification
-     * @scenario Verify Payment 
-     * @case get method for Receive Form
-     * 
+     * @scenario Verify Payment
+     * @case Is `PUT` request type called for verifying Payment
+     *
      * @test
      */
     public function get_method()
@@ -37,8 +37,8 @@ class ReceiveFormTest extends UnitTestCase
 
     /**
      * @feature Payment Verification
-     * @scenario Receive Form
-     * @case get URL for Verification Payment
+     * @scenario Verify Payment
+     * @case Is corrected Url called for Payment verification
      *
      * @test
      */

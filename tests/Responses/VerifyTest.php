@@ -37,9 +37,9 @@ class VerifyTest extends UnitTestCase
 
     /**
      * @feature Payment Verification
-     * @scenario Verify Payment 
-     * @case Parse verified data
-     * 
+     * @scenario Verify Payment
+     * @case Are verified data from Provider parsed
+     *
      * @test
      */
     public function check_same_response_parameters()
@@ -56,9 +56,9 @@ class VerifyTest extends UnitTestCase
 
     /**
      * @feature Payment Verification
-     * @scenario Verify Payment 
-     * @case Parse verified data
-     * 
+     * @scenario Verify Payment
+     * @case Are verified data from Provider parsed
+     *
      * @test
      */
     public function check_same_order_id()

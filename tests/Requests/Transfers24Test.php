@@ -578,7 +578,7 @@ class Transfers24Test extends UnitTestCase
     /**
      * @feature Payment Verification
      * @scenario Verify Payment
-     * @case Run Aciton
+     * @case Does send Request Action executed
      *
      * @test
      */
