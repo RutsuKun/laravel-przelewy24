@@ -36,8 +36,8 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @feature Payment Methods
-     * @scenario Get Payment Methods
+     * @feature Payment Requests
+     * @scenario "GET" type request
      * @case Is default language used for getting Payment Methods
      *
      * @test
@@ -54,8 +54,8 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @feature Payment Methods
-     * @scenario Get Payment Methods
+     * @feature Payment Requests
+     * @scenario "GET" type request
      * @case Is indicated language used for getting Payment Methods
      *
      * @test
@@ -73,8 +73,8 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @feature Payment Methods
-     * @scenario Get Payment Methods
+     * @feature Payment Requests
+     * @scenario "GET" type request
      * @case It returns Payment Methods collection
      *
      * @test
@@ -102,8 +102,8 @@ class PaymentMethodsTest extends UnitTestCase
     }
 
     /**
-     * @feature Payment Methods
-     * @scenario Get Payment Methods
+     * @feature Payment Requests
+     * @scenario "GET" type request
      * @case Is indicated language used for getting Payment Methods
      *
      * @test

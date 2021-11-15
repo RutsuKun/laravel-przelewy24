@@ -37,7 +37,7 @@ class RefundInfoRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario Getting RefundInfo
+     * @scenario Getting Refund Info
      * @case It returns refund info by Order Identifier
      *
      * @test
@@ -56,7 +56,7 @@ class RefundInfoRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario Getting RefundInfo
+     * @scenario Getting Refund Info
      * @case It returns empty data when not found Refund
      *
      * @test
@@ -73,7 +73,7 @@ class RefundInfoRequestTest extends UnitTestCase
 
     /**
      * @feature Refunds
-     * @scenario Getting RefundInfo
+     * @scenario Getting Refund Info
      * @case It returns refunded Payment Info by Order Identifier
      *
      * @test
@@ -105,9 +105,10 @@ class RefundInfoRequestTest extends UnitTestCase
     }
 
     /**
-     * @Feature Refunds
-     * @Scenario Getting RefundInfo
-     * @Case It returns invalid data when authentication failed
+     * @feature Refunds
+     * @scenario Getting Refund Info
+     * @case It returns invalid data when authentication failed
+     *
      * @test
      */
     public function execute_was_failed_and_return_invalid_response()
