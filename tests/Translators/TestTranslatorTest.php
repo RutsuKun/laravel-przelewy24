@@ -50,7 +50,7 @@ class TestTranslatorTest extends UnitTestCase
 
     /**
      * @feature Connection With Provider
-     * @scenario Test Connection Edited
+     * @scenario Test Connection
      * @case Are data from Provider parsed
      *
      * @test

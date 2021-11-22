@@ -47,7 +47,7 @@ class BodyDecoderTest extends UnitTestCase
 
     /**
      * @feature Connection With Provider
-     * @scenario Test Connection Edited
+     * @scenario Test Connection
      * @case Are data received from Provider
      *
      * @test
