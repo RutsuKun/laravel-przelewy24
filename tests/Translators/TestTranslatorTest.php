@@ -52,10 +52,10 @@ class TestTranslatorTest extends UnitTestCase
      * @feature Connection With Provider
      * @scenario Test Connection
      * @case Are data from Provider parsed
-     *
+     * 
      * @test
      */
-    public function translate()
+    public function translate_edited()
     {
         //Given
         $p24_merchant_id = 'merchant-id';
