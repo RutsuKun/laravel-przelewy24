@@ -82,10 +82,6 @@ class ActionTest extends UnitTestCase
     }
 
     /**
-     * @feature Payment Requests
-     * @scenario "GET" type request
-     * @case Does send Request Action executed
-     *
      * @feature Refunds
      * @scenario Init Refund
      * @case Does send Request Action executed
@@ -95,7 +91,11 @@ class ActionTest extends UnitTestCase
      * @case Does send Request Action executed
      *
      * @feature Connection With Provider
-     * @scenario Test Connection
+     * @scenario Test Connection Edited
+     * @case Does send Request Action executed
+     *
+     * @feature Payment Requests
+     * @scenario "GET" type request
      * @case Does send Request Action executed
      *
      * @test
