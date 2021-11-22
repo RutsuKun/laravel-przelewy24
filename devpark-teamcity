@@ -1,0 +1,14 @@
+
+##teamcity[testCount count='1' flowId='3914']
+
+##teamcity[testSuiteStarted name='Tests' flowId='3914']
+
+##teamcity[testSuiteStarted name='Tests\Translators\TestTranslatorTest' locationHint='php_qn:///home/test_manager/projects/przelewy24/tests/Translators/TestTranslatorTest.php::\Tests\Translators\TestTranslatorTest' flowId='3914']
+
+##teamcity[testStarted name='translate' locationHint='php_qn:///home/test_manager/projects/przelewy24/tests/Translators/TestTranslatorTest.php::\Tests\Translators\TestTranslatorTest::translate' flowId='3914']
+
+##teamcity[testFinished name='translate' duration='20' flowId='3914']
+
+##teamcity[testSuiteFinished name='Tests\Translators\TestTranslatorTest' flowId='3914']
+
+##teamcity[testSuiteFinished name='Tests' flowId='3914']
