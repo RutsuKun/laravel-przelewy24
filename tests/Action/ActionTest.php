@@ -91,7 +91,7 @@ class ActionTest extends UnitTestCase
      * @case Does send Request Action executed
      *
      * @feature Connection With Provider
-     * @scenario Test Connection
+     * @scenario Test Connection Edited
      * @case Does send Request Action executed
      *
      * @feature Payment Requests
