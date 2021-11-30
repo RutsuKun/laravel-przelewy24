@@ -85,7 +85,7 @@ class CheckCredentialsRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Connection With Provider
+     * @feature Connection With Provider - Edited
      * @scenario Test Connection Edited
      * @case Connection passed
      *
@@ -101,7 +101,7 @@ class CheckCredentialsRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Connection With Provider
+     * @feature Connection With Provider - Edited
      * @scenario Test Connection Edited
      * @case Connection failed
      *
