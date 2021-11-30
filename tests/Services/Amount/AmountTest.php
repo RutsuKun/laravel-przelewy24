@@ -21,6 +21,7 @@ class AmountTest extends UnitTestCase
      * @scenario Register Payment
      * @case It set entry Data
      *
+     * @expectation Unvalidated data data provider.
      * @test
      * @dataProvider provideAmount
      *
