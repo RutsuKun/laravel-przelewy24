@@ -81,13 +81,8 @@ class Transfers24Test extends UnitTestCase
     public function amountSamples()
     {
         return [
-            [
-                'amount' => 12.5,
-                'currency' => 'eur',
-                'expected_currency' => 'EUR',
-                'expected_amount' => 1250,
-            ],
-
+            '0' => ['amount' => 12.5, 'currency' => 'eur', 'expected_currency' => 'EUR', 'expected_amount' => 1250],
+            '1' => ['amount' => 12.5, 'currency' => 'pln', 'expected_currency' => 'PLN', 'expected_amount' => 1250],
         ];
     }
 
