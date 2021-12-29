@@ -32,11 +32,11 @@ class CodeTranslateTest extends UnitTestCase
     }
 
     /**
+     * @suite set user data - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case It set entry Data
      *
-     * @suite Set User Data
      * @test
      */
     public function set_one_from_avalible_codes()

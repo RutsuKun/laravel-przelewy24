@@ -114,11 +114,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite set user data - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case It set entry Data
      *
-     * @suite set user data
      *
      * @test
      * @dataProvider emailSamples
@@ -267,11 +267,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite set user data - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case It set entry Data
      *
-     * @suite Set User Data
      * @test
      */
     public function setTransferLabel_validation()
@@ -511,11 +511,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite set user data - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case It set entry Data
      *
-     * @suite Set User Data
      * @test
      */
     public function it_sets_valid_urls_for_absolute_urls()
@@ -629,11 +629,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite set user data - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case It set entry Data
      *
-     * @suite Set User Data
      * @test
      */
     public function setNextArticle_validate()
