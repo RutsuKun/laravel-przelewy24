@@ -146,11 +146,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite data validation - edited
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Is Payment Link correct
      *
-     * @suite Data Validation
      * @test
      */
     public function trnRequest_return_response()
