@@ -112,8 +112,10 @@ class RegisterTest extends UnitTestCase
         $this->assertEquals($parameters, $parameters_request);
     }
 
-    /** @test */
-    public function check_correct_session_id_passing()
+    /**
+     * @test
+     */
+    public function check_correct_session_id_passing_edited()
     {
         $session_id = 4;
         $this->form->shouldReceive('getSessionId')->once()->andReturn($session_id);
