@@ -57,11 +57,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite api - edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to sandbox
      *
-     * @suite API
      * @test
      */
     public function test_get_test_host()
@@ -73,11 +73,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite api - edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to sandbox
      *
-     * @suite API
      * @test
      */
     public function test_get_test_host_with_path()
@@ -89,11 +89,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite api - edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to live
      *
-     * @suite API
      * @test
      */
     public function test_get_production_host()
@@ -106,11 +106,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
+     * @suite api - edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case Does send Request Action executed
-     * 
-     * @suite API
+     *
      * @test
      */
     public function send_payment()
