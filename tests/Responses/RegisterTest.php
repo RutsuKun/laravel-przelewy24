@@ -113,6 +113,15 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
+     * @feature Connection With Provider - Edited
+     * @scenario Test Connection Edited
+     * @case Are data from Provider parsed aaaa bb
+     *
+     * @suite jeden sjut
+     * @expectation nic szczegolnego
+     *
+     * @description nie ma opisu
+     *
      * @test
      */
     public function check_correct_session_id_passing_edited()
