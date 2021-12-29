@@ -57,7 +57,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - edited suite
+     * @suite api - again edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to sandbox
@@ -73,7 +73,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - edited suite
+     * @suite api - again edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to sandbox
@@ -89,7 +89,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - edited suite
+     * @suite api - again edited suite
      * @feature Online Payments
      * @scenario Execute Payment
      * @case Connection to live
@@ -106,7 +106,7 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - edited suite
+     * @suite api - again edited suite
      * @feature Online Payments
      * @scenario Register Payment
      * @case Does send Request Action executed
