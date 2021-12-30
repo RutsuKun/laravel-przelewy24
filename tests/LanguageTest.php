@@ -12,10 +12,11 @@ class LanguageTest extends UnitTestCase
     }
 
     /**
-     * @suite set user data - edited suite
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case It set entry Data
+     *
+     * @suite set user data - edited suite
      *
      * @test
      */

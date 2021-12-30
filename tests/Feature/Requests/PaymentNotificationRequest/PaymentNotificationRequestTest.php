@@ -41,7 +41,7 @@ class PaymentNotificationRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Notify Payment
      * @case Are data received from Provider
      *

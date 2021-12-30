@@ -20,7 +20,7 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Is `POST` request type called for connection test
      *
@@ -36,7 +36,7 @@ class RegisterFormTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Is correct Url called for Register Payment
      *

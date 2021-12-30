@@ -21,7 +21,7 @@ class ResponseTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are data from Provider parsed
      *
@@ -37,7 +37,7 @@ class ResponseTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are data from Provider parsed
      *
@@ -53,7 +53,7 @@ class ResponseTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are data from Provider parsed
      *

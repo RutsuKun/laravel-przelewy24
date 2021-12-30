@@ -36,7 +36,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case It returns Payment Token
      *
@@ -61,7 +61,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case It returns error message
      *
@@ -77,7 +77,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case It returns error message
      *
@@ -94,7 +94,7 @@ class RegisterTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case It returns error message
      *

@@ -21,7 +21,7 @@ class BodyDecoderTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are data received from Provider
      *
@@ -68,7 +68,7 @@ class BodyDecoderTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are error message received from Provider
      *
@@ -90,7 +90,7 @@ class BodyDecoderTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Are error message received from Provider
      *

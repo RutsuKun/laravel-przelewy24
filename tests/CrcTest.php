@@ -33,7 +33,7 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Is Crc calculated for entry data
      *
@@ -63,7 +63,7 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Is Crc calculated for entry data when Salt is missing
      *
@@ -96,7 +96,7 @@ class CrcTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Is Crc calculated for entry data when data are missing
      *

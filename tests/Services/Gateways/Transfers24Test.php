@@ -57,10 +57,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - again edited suite
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Execute Payment
      * @case Connection to sandbox
+     *
+     * @suite api - again edited suite
      *
      * @test
      */
@@ -73,10 +74,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - again edited suite
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Execute Payment
      * @case Connection to sandbox
+     *
+     * @suite api - again edited suite
      *
      * @test
      */
@@ -89,10 +91,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - again edited suite
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Execute Payment
      * @case Connection to live
+     *
+     * @suite api - again edited suite
      *
      * @test
      */
@@ -106,10 +109,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite api - again edited suite
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
      * @case Does send Request Action executed
+     *
+     * @suite api - again edited suite
      *
      * @test
      */
@@ -146,10 +150,11 @@ class Transfers24Test extends UnitTestCase
     }
 
     /**
-     * @suite data validation - edited
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Execute Payment
      * @case Is Payment Link correct
+     *
+     * @suite data validation - edited
      *
      * @test
      */

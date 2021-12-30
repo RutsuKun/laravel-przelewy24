@@ -36,7 +36,7 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Get Payment Info
      * @case Is Session Identifier used for getting Payment Info
      *
@@ -54,7 +54,7 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Get Payment Info
      * @case It returns empty data when Payment is not found
      *
@@ -74,7 +74,7 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Get Payment Info
      * @case Is Session Identifier used for getting Payment Info
      *
@@ -112,7 +112,7 @@ class TransactionRequestTest extends UnitTestCase
     }
 
     /**
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Get Payment Info
      * @case It returns invalid data when authentication failed
      *

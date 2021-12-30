@@ -82,16 +82,16 @@ class ActionTest extends UnitTestCase
     }
 
     /**
+     * @feature Connection With Provider - Edited
+     * @scenario Test Connection Edited
+     * @case Does send Request Action executed
+     *
      * @feature Refunds
      * @scenario Init Refund
      * @case Does send Request Action executed
      *
-     * @feature Online Payments
+     * @feature Online Payments - edited
      * @scenario Register Payment
-     * @case Does send Request Action executed
-     *
-     * @feature Connection With Provider - Edited
-     * @scenario Test Connection Edited
      * @case Does send Request Action executed
      *
      * @feature Payment Requests
