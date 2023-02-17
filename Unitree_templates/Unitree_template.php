@@ -1,6 +1,5 @@
 {
 
-
     /**
      * @feature Connection With Provider - Edited
      * @scenario Test Connection Edited
