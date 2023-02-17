@@ -20,6 +20,7 @@ trait AmountTrait
             '9' => ['amount' => 999.99, 'expected' => 99999],
             '10' => ['amount' => 'asd', 'expected' => 1],
             '11' => ['amount' => 'asdasd', 'expected' => 2],
+            '12' => ['amount' => 'abc', 'expected' => null],
         ];
     }
 }
